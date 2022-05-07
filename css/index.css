@@ -80,6 +80,10 @@ html {
     margin-right: 150px;
     margin-top: 30px;
     border-radius: 30px;
+    display: visible;
+}
+.signuphidden{
+    display: none;
 }
 .signuptxt{
     font-family: sans-serif; 
@@ -91,6 +95,7 @@ html {
     font-family: sans-serif;
     border-radius: 30px;
     padding: 16px 102px 16px 102px;
+    text-decoration: none;
 }
 .submitbtn:hover{
     transition-duration: 0.5s;
@@ -100,6 +105,7 @@ html {
 }
 .login:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 #input{
     width: 255px;
@@ -109,4 +115,68 @@ html {
     padding-left: 12px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.37);
+    
 }
+.category{
+    width: 265px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+::placeholder{
+    color: black;
+}
+
+/* Login form */
+.logindiv{
+    float: right;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0)),  url(../img/William\ Shakespear.jpg);
+    padding: 30px;
+    margin-right: 150px;
+    margin-top: 30px;
+    border-radius: 30px;
+    display: visible;
+}
+.logindivhidden{
+    display: none;
+}
+.loginbtn{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 30px;
+    padding: 16px 113px 16px 113px;
+    text-decoration: none;
+}
+.loginbtn:hover{
+    transition-duration: 0.5s;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+.error{
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(255, 86, 86);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 40%;
+    z-index: 10px;
+    font-size: 14px;
+    position: absolute;
+    border-radius: 5px;
+    width: 240px;
+    padding: 15px 15px 15px 45px;
+    display: visible;
+}
+.errorhidden{
+    display: none;
+}
+.close{
+    float: right;
+    cursor: pointer;
+}
+  
