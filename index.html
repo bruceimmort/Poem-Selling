@@ -9,20 +9,33 @@
     <title>Poem Selling</title>
 </head>
 <body>
+    <div class="errorhidden">
+        <img src="img/close.png" class="close" alt="">
+        <p>One or more field's are empty</p>
+    </div>
     <div class="signup">
         <form action=""><br><br>
             <p class="signuptxt">Signup</p><br><br>
-            <input id="input" type="text" placeholder="Username"><br><br>
-            <input id="input" type="email" placeholder="Email"><br><br>
-            <input id="input" type="password" name="" id="" placeholder="Password"><br><br>
-            <select name="" id="">
-                <option value="poet">Poet</option>
-                <option value="buyer">Buyer</option>
+            <input id="input" class="input1" type="text" placeholder="Username"><br><br>
+            <input id="input" class="input2" type="email" placeholder="Email"><br><br>
+            <input id="input" class="input3" type="password" name="" id="" placeholder="Password"><br><br>
+            <select name="" id="" class="category">
+                <option value="poet">I'm a Poet</option>
+                <option value="aficionado">I'm a poetry aficionado</option>
             </select>
-            <br><br><br><br>
-            <a type="submit" class="submitbtn">Sign Up</a><br><br><br>
-            <center><p class="login">Login here</p></center>
+            <br><br><br>
+            <p href="" class="submitbtn">Sign Up</p><br><br>
+            <center><p class="login" id="login">Login here</p></center>
             <br>
+        </form>
+    </div>
+    <div class="logindivhidden">
+        <form action=""><br><br>
+            <p class="signuptxt">Login</p><br><br>
+            <input id="input" class="input4" type="text" placeholder="Username"><br><br>
+            <input id="input" class="input5" type="password" placeholder="Password"><br><br><br>
+            <p href="" class="loginbtn">Login</p><br><br>
+            <center><p class="login" id="signup">Signup here</p></center>
         </form>
     </div>
 
@@ -35,14 +48,6 @@
             diction (sometimes involving rhyme), rhythm, and imagery.
         </P><br><br><br>
         </div>
-        <script>
-            const login = document.querySelector(".login");
-            function loginfun(){
-                const signuptxt = document.querySelector(".signuptxt");
-                signuptxt.innerHTML = "Login";
-                // 23121985
-            }
-            login.addEventListener('click', loginfun);
-        </script>
+        <script src="js/index.js"></script>
 </body>
 </html>
