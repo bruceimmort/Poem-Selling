@@ -2,39 +2,6 @@
     padding: 0;
     margin: 0;
 }
-@font-face {
-    font-family: WaterBrush;
-    src: url(../Fonts/WaterBrush-Regular.ttf);
-}
-@font-face {
-    font-family: OleoScript-Bold;
-    src: url(../Fonts/OleoScript-Bold.ttf);
-}
-@font-face {
-    font-family: OleoScript-Regular;
-    src: url(.../Fonts/OleoScript-Regular.tff);
-}
-
-@font-face {
-    font-family: Caveat-Bold;
-    src: url(../Fonts/Caveat-Bold.ttf);
-}
-@font-face {
-    font-family: Caveat-Medium;
-    src: url(../Fonts/Caveat-Medium.ttf);
-}
-@font-face {
-    font-family: Caveat-Regular;
-    src: url(../Fonts/Caveat-Regular.ttf);
-}
-@font-face {
-    font-family: Caveat-SemiBold;
-    src: url(../Fonts/Caveat-SemiBold.ttf);
-}
-@font-face {
-    font-family: Caveat-VariableFont_wght;
-    src: url(../Fonts/Caveat-VariableFont_wght.ttf);
-}
 body {
     background-image:url("../img/grunge-vintage-old-paper-background.jpg");
     background-repeat: no-repeat;
@@ -78,7 +45,6 @@ html {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0)),  url(../img/William\ Shakespear.jpg);
     padding: 30px;
     margin-right: 150px;
-    margin-top: 30px;
     border-radius: 30px;
     display: visible;
 }

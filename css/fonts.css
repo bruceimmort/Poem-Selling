@@ -1,0 +1,33 @@
+@font-face {
+    font-family: WaterBrush;
+    src: url(../Fonts/WaterBrush-Regular.ttf);
+}
+@font-face {
+    font-family: OleoScript-Bold;
+    src: url(../Fonts/OleoScript-Bold.ttf);
+}
+@font-face {
+    font-family: OleoScript-Regular;
+    src: url(.../Fonts/OleoScript-Regular.tff);
+}
+
+@font-face {
+    font-family: Caveat-Bold;
+    src: url(../Fonts/Caveat-Bold.ttf);
+}
+@font-face {
+    font-family: Caveat-Medium;
+    src: url(../Fonts/Caveat-Medium.ttf);
+}
+@font-face {
+    font-family: Caveat-Regular;
+    src: url(../Fonts/Caveat-Regular.ttf);
+}
+@font-face {
+    font-family: Caveat-SemiBold;
+    src: url(../Fonts/Caveat-SemiBold.ttf);
+}
+@font-face {
+    font-family: Caveat-VariableFont_wght;
+    src: url(../Fonts/Caveat-VariableFont_wght.ttf);
+}

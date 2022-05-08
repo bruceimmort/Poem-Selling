@@ -23,6 +23,7 @@ function signin(){
     const input3 = document.querySelector(".input3").value;
     const category = document.querySelector(".category").value;
     const error = document.querySelector(".errorhidden");
+    // var encrypt = {"a":"k", "b":"l","c":"o","d":""}
     if (input1 == "" || input2 == "" || input3 == "") {
         error.className = "error";
         setTimeout(()=>{error.className = "errorhidden"},5000);
