@@ -31,3 +31,11 @@
     font-family: Caveat-VariableFont_wght;
     src: url(../Fonts/Caveat-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: HammersmithOne-Regular;
+    src: url(../Fonts/HammersmithOne-Regular.ttf);
+}
+@font-face {
+    font-family: ElMessiri-VariableFont_wght;
+    src: url(../Fonts/ElMessiri-VariableFont_wght.ttf);
+}
