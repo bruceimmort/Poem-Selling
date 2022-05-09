@@ -168,3 +168,49 @@ body{
     border-radius: 20px;
     margin-right: 30px;
 }
+
+/* it's at 00:53 */
+.content{
+    margin-top: 60px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.trendingnotification{
+    /* background-color: #EBCCB7; */
+    background-color: rgba(0, 0, 0, 0.03);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.trendingtext{
+    float: left;
+    margin-right: 100px;
+}
+.trendimg{
+    width: 250px;
+    margin-left: 100px;
+    float: right;
+}
+.top{
+    font-size: 65px;
+    font-family: HammersmithOne-Regular;
+}
+.middle{
+    font-size: 35px;
+    font-family: ElMessiri-VariableFont_wght;
+}
+.bottom{
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    padding: 10px 30px 10px 30px;
+    width: 100%;
+    border-radius: 20px;
+    margin-right: 30px;
+}
