@@ -47,6 +47,7 @@ body{
 }
 .selection{
     font-family: sans-serif;
+    text-decoration: none;
     color: rgba(0, 0, 0, 0.432);
     font-size: 13px;
     border: 1px solid rgba(0, 0, 0, 0.432);
@@ -58,6 +59,7 @@ body{
     font-family: sans-serif;
     color: white;
     background-color: black;
+    text-decoration: none;
     font-size: 13px;
     border: 1px solid rgba(0, 0, 0, 0.432);
     padding: 10px 20px 10px 20px;
@@ -93,13 +95,6 @@ body{
     justify-content: space-between;
     padding: 30px;
     width: 94%;
-}
-.trenditem{
-    background-color: none;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    
 }
 .bookcover{
     width: 169px;
@@ -163,7 +158,7 @@ body{
     font-size: 12px;
     text-decoration: none;
     border: 1px solid rgba(0, 0, 0, 0.432);
-    padding: 13px 69px 13px 69px;
+    padding: 13px 65px 13px 65px;
     width: 100%;
     border-radius: 20px;
     margin-right: 30px;
@@ -213,4 +208,38 @@ body{
     width: 100%;
     border-radius: 20px;
     margin-right: 30px;
+}
+
+/* It's at 01:57 */
+.categorytxt{
+    font-family: ElMessiri-VariableFont_wght;
+    font-size: 30px;
+}
+.viewall{
+    font-family: sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    padding: 8px 15px 8px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.058);
+}
+.viewall:hover{
+    color: white;
+    background-color: black;
+}
+.categorytitle{
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.195);
+}
+.catgeorycontentcontainer{
+    display: flex;
+    background-color: none ;
+    justify-content: space-between;
+    padding: 30px 0px 69px 0px;
+    width: 100%;
 }
