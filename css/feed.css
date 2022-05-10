@@ -172,11 +172,12 @@ body{
 }
 .trendingnotification{
     /* background-color: #EBCCB7; */
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: rgba(0, 0, 255, 0.257);
+    /* background-color: rgba(0, 0, 0, 0.03); */
     display: flex;
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    border-radius: 20px;
+    border-radius: 25px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
